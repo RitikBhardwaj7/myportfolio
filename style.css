@@ -5,11 +5,11 @@
 }
 @font-face {
     font-family: d;
-    src: url("Assets/domain.ttf");
+    src: url("*/domain.ttf");
 }
 @font-face {
     font-family: c;
-    src: url("Assets/canopee.ttf");
+    src: url("*/canopee.ttf");
 }
 
 
