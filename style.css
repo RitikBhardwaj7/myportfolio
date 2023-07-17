@@ -38,10 +38,10 @@ nav{
     height: 70px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 .logo{
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 
 nav ul{
@@ -65,6 +65,9 @@ nav ul li a{
     display: none;
 }
 
+.closeMenu{
+    display: none;
+}
 
 .my-image{
     width: 100%;
@@ -195,7 +198,7 @@ font-size: 7rem;
     font-family: c;
     text-align: center;
     font-size: 6rem;
-    color: #ffd4b3;
+    color: #ff832b8e;
 }
 .work{
     display: none;
@@ -204,7 +207,7 @@ font-size: 7rem;
     font-family: c;
     text-align: center;
     font-size: 6rem;
-    color: #ffd4b3;
+    color: #ff832b8e;;
 }
 
 
@@ -336,7 +339,7 @@ width: 100%;
 }
 
 .contact h2{
-    color: #FF842B;
+    color: #ff832b8e;
     font-size: 6rem;
     font-family: c;
 }
@@ -364,6 +367,11 @@ footer{
     .heading h1{
         font-size: 6rem;
         text-align: center;
+    }
+
+
+    .logo{
+        padding: 0px 20px;
     }
 
 
@@ -463,6 +471,11 @@ width: 100%;
     position: relative;
     
 }
+
+.nav-items{
+    display: none;
+}
+
     nav ul{
         height: 50vh;
         z-index: 9;
@@ -471,7 +484,7 @@ width: 100%;
         position: absolute;
         right: -60px;
         background-color: #FF842B;
-        display: none;
+        /* display: none; */
     }
 
     nav ul li{
@@ -479,7 +492,14 @@ padding: 30px 100px;
     }
 
     .hamburger{
+        z-index: 999;
         display: block;
+        padding: 10px 20px;
+    }
+
+    .closeMenu{
+        z-index: 999;
+        display: none;
         padding: 10px 20px;
     }
 
