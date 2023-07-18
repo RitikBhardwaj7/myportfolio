@@ -1,361 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ritik's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+  <title>Document</title>
 </head>
+
 <body>
+  <div class="main" id="main">
+    <div data-scroll data-scroll-speed="-5" class="page1" id="page1">
+      <nav>
+        <img src="Assets/Screenshot 2023-05-30 220719.png" alt="logo" />
 
-    <div class="main">
-
-        <div class="page1">
-        <nav>
-            <div class="logo">
-                <p class="logo">Ritik B.</p>
-            </div>
-
-            <div id="nav-items" class="nav-items">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#projects">Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="https://drive.google.com/file/d/1ZpuJ7IL-j-PnXU9c5xuJzUaA2rUj-5Af/view?usp=sharing" target="_blank">Resume</a></li>
-                </ul>
-            </div>
-            <div id="hamburger" class="hamburger"><i class="material-symbols-outlined">
-                menu
-                </i></div>
-            <div id="closeMenu" class="closeMenu"><i class="material-symbols-outlined">
-                disabled_by_default
-            </i></div>
-        </nav>
-
-        <div class="my-image"><img src="myImage.png" alt="ritik">
+        <div class="right-nav">
+          <button>Book a Demo</button>
+          <button><i class="ri-menu-fill"></i></button>
         </div>
+      </nav>
+      <div class="bottom-page1">
+        <h1>Experience Real <br />Estate Agility</h1>
 
-        <div class="main-content">
-            <div class="heading">
-                <h1>Ritik B<span>.</span> frontend dev</h1>
-                <p>Recent BCA Graduate | UI/UX & Frontend Enthusiast</p>
-            </div>
+        <div class="bottom-content">
+          <h4>
+            Create a digital twin of your existing building <br />and release
+            the potential of web3
+          </h4>
+          <button>Learn More</button>
         </div>
-
-        <div class="breif">
-            <div class="social-list-hero">
-                <ul>
-                    <li><a href="https://www.instagram.com/designytical/" target="_blank">Instagram</a></li>
-                    <li><a href="https://github.com/RitikBhardwaj7" target="_blank">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/ritik-bhrdwj/" target="_blank">LinkedIn</a></li>
-                </ul>
-            </div>
-            <div class="about-hero">
-                <h2>Breif about me</h2>
-                <p>Recent BCA graduate with a passion for creating seamless user experiences and a keen eye for aesthetics.
-                </p>
-            </div>
-        </div> 
-
+      </div>
+      <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" autoplay loop muted></video>
     </div>
-
-    <div class="project-work"><h2 id="projects" class="project-work">Works</h2></div>
-
-    <div class="page2 2.1">
-        <div class="page2-container">
-        <div class="section-1">
-        <span class="project-number">01</span>
-        <div class="project-thumb"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" height="300" width="400"></div>
-        <div class="project-title"><h2 class="project-title-head">Project <br> Name</h2></div>
-        </div>
-
-        <div class="section2">
-            <div class="breif page2breif">
-                <div class="social-list-hero">
-                    <ul>
-                        <li><a href="#" target="_blank">View</a></li>
-                        <li><a href="#" target="_blank">List View</a></li>
-                    </ul>
-                </div>
-                <div class="about-hero">
-                    <h2>Project Details</h2>
-                    <p>Hello! I'm Ritik Bhardwaj, a digital designer from  the city beautiful Chandigarh. Right I'm working at Saaspect, where we're trying to make people's digital experiences better by making it easier to test usability.
-                    </p>
-                </div>
+    <div class="page2" id="page2">
+      <h1>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</h1>
+      <h2>The Digital Twin Token is a unique digital asset backed by property data. Magma combines your building’s
+        components and systems essential information into a DTT®.</h2>
     </div>
+    <div class="page3" id="page3"></div>
+  </div>
 
-</div>
-    </div>
-
-    </div>
-    <div class="page2 2.2">
-        <div class="page2-container">
-        <div class="section-1">
-        <span class="project-number">01</span>
-        <div class="project-thumb"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" height="300" width="400"></div>
-        <div class="project-title"><h2 class="project-title-head">Project <br> Name</h2></div>
-        </div>
-
-        <div class="section2">
-            <div class="breif page2breif">
-                <div class="social-list-hero">
-                    <ul>
-                        <li><a href="#" target="_blank">View</a></li>
-                        <li><a href="#" target="_blank">List View</a></li>
-                    </ul>
-                </div>
-                <div class="about-hero">
-                    <h2>Project Details</h2>
-                    <p>Hello! I'm Ritik Bhardwaj, a digital designer from  the city beautiful Chandigarh. Right I'm working at Saaspect, where we're trying to make people's digital experiences better by making it easier to test usability.
-                    </p>
-                </div>
-    </div>
-
-</div>
-    </div>
-
-    </div>
-    <div class="page2 2.3">
-        <div class="page2-container">
-        <div class="section-1">
-        <span class="project-number">01</span>
-        <div class="project-thumb"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" height="300" width="400"></div>
-        <div class="project-title"><h2 class="project-title-head">Project <br> Name</h2></div>
-        </div>
-
-        <div class="section2">
-            <div class="breif page2breif">
-                <div class="social-list-hero">
-                    <ul>
-                        <li><a href="#" target="_blank">View</a></li>
-                        <li><a href="#" target="_blank">List View</a></li>
-                    </ul>
-                </div>
-                <div class="about-hero">
-                    <h2>Project Details</h2>
-                    <p>Hello! I'm Ritik Bhardwaj, a digital designer from  the city beautiful Chandigarh. Right I'm working at Saaspect, where we're trying to make people's digital experiences better by making it easier to test usability.
-                    </p>
-                </div>
-    </div>
-
-</div>
-    </div>
-
-    </div>
-
-
-    <div class="project-work"><h2 id="about" class="project-work">About Me</h2></div>
-
-
-
-<div class="page4">
-
-<div class="about-png"> <img src="Assets/About me.png" alt=""></div>
-
-
-    <div class="details">
-        <div class="section2 con">
-            <div class="breif breif2">
-
-                <div class="about-hero education">
-                    <h2 >About</h2>
-                    <p>Eager to contribute to a dynamic organization, applying a fresh perspective and a hunger for growth in real-world projects.
-                    </p>
-                </div>
-                <div class="about-hero education">
-                    <h2>Experiences</h2>
-                    <div><p class="company" style="font-weight: bold;">Think of It Foundation <br>
-                        (UI/UX Designer) </p>
-                        <p class="date">(June 2021 - Nov 2021)</p> <br><br>
-                    
-                        <p class="company" style="font-weight: bold;">Saaspect (UI Designer)<br></p>
-                        <p class="date">(June 2021 - Nov 2021)</p>
-                    </div>
-                </div>
-                <div class="about-hero education">
-                    <h2 >Education</h2>
-                    <div><p class="company" style="font-weight: bold;">BCA Graduate (7.3 CGPA Overall) <br></p>
-                        <p class="date">(July 2020 - July 2023)</p> <br><br>
-                    
-                        <p class="company" style="font-weight: bold;">12th (7.2 CGPA Overall)<br></p>
-                        <p class="date">(July 2018 - July 2020)</p>
-                    </div>
-                </div>
-            
-    </div>
-
-</div>
-
-    </div>
-</div>
-
-
-
-<div class="project-work"><h2 class="project-work">Skills</h2></div>
-
- 
-    <div class="page5">
-
-    <div class="skill-png">
-        <img src="Assets/Skills.png" alt="">
-    </div>
-
-    <div class="skills-list">
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">HTML5</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">CSS</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">Bootstrap</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">Javascript</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">UI/UX</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">Figma</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">React Js</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">JQuery</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-        <div class="skill">
-        <div class="skill-name"><p style="font-weight: bold; color:#343434">Git</p></div>
-        <div class="stars">
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-            <div class="star"><span class="material-symbols-outlined">stars</span></div>
-        </div>
-
-        </div>
-
-
-    
-
-
-    </div>
-    </div>
-    
-
-
-
-    <div class="project-work"><h2 id="contact" class="project-work">Contact</h2></div>
-
-
-
-    <div class="page6">
-
-        <div class="breif contact-breif" >
-            <div class="social-list-hero">
-                <h2 style="font-size: 1.2rem; color: #FF842B; font-weight: bold; text-align: center;">Socials</h2>
-                <ul>
-                    <li><a href="https://www.instagram.com/designytical/" target="_blank">Instagram</a></li>
-                    <li><a href="https://github.com/RitikBhardwaj7" target="_blank">Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/ritik-bhrdwj/" target="_blank">LinkedIn</a></li>
-                </ul>
-            </div>
-            <div class="about-hero">
-                <h2 style="font-weight: bold;">Mail & Contact</h2>
-                <p style="color: #343434;">You can Contact me at <br><span style="text-decoration: underline; color: #FF842B;">ritikbhardwaj277@gmail.com</span> <br> or <br> <span style="text-decoration: underline; color: #FF842B;">+91 7814087330 </span> 
-                </p>
-            </div>
-        </div>    
-
-
-    </div>
-    <footer class="py-3 my-4 ">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Works</a></li>
-          <li class="nav-item"><a href="https://drive.google.com/file/d/1ZpuJ7IL-j-PnXU9c5xuJzUaA2rUj-5Af/view?usp=sharing" class="nav-link px-2 text-body-secondary">Resume</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
-        </ul>
-        <p class="text-center text-body-secondary">© 2023 Ritik B.</p>
-      </footer>
- </div>   
-
-<script src="main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
