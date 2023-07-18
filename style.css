@@ -348,6 +348,44 @@ footer{
 
 
 @media (max-width: 840px) {
+
+.nav-itmems{
+    
+    position: relative;
+    
+}
+
+.nav-items{
+    display: none;
+}
+
+    nav ul{
+        height: 450px;
+        z-index: 9;
+        font-family: inter;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: -60px;
+        background-color: #ffd2b3;
+    }
+
+    nav ul li{
+padding: 30px 100px;
+    }
+
+    .hamburger{
+        z-index: 999;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .closeMenu{
+        z-index: 999;
+        display: none;
+        padding: 10px 20px;
+    }
+    
     .heading h1{
         font-size: 4rem;
         text-align: center;
@@ -428,42 +466,7 @@ width: 100%;
 
 @media (max-width: 700px) {
 
-.nav-itmems{
-    
-    position: relative;
-    
-}
 
-.nav-items{
-    display: none;
-}
-
-    nav ul{
-        height: 350px;
-        z-index: 9;
-        font-family: inter;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        right: -60px;
-        background-color: #ffd2b3;
-    }
-
-    nav ul li{
-padding: 30px 100px;
-    }
-
-    .hamburger{
-        z-index: 999;
-        display: block;
-        padding: 10px 20px;
-    }
-
-    .closeMenu{
-        z-index: 999;
-        display: none;
-        padding: 10px 20px;
-    }
 
     .breif{
     margin-top: none;
