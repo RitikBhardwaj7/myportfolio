@@ -88,7 +88,7 @@ object-fit: cover;
     height: 35vh;
     background-color: #EBE2DB;
     position: relative;
-    top: -265px;
+    top: -270px;
 }
 
 
@@ -518,8 +518,8 @@ width: 100%;
 
 @media (max-width: 350px){
 
-    .project-work{
-        font-size: 4rem;
+  .project-work{
+        font-size: 4.25rem;
     }
 
 }
