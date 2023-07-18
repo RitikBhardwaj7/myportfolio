@@ -212,6 +212,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   width: 30%;
+  opacity: 50%;
 }
 
 .about-png img {
@@ -260,6 +261,7 @@ nav ul li a {
 
 .skill-png img {
   width: 80%;
+  opacity: 50%;
 }
 
 .skills-list {
